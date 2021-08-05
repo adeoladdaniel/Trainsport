@@ -1,0 +1,27 @@
+// import abstract folder
+@import "./abstracts/variable";
+
+// import base folder
+@import "./base/base";
+@import "./base/typography";
+
+// import components folder
+@import "./components/heading";
+@import "./components/w-dropdown.scss";
+@import "./components/_navbar.scss";
+@import "./components/footer.scss";
+
+
+
+//import Layout Folder
+@import "./layout/skipcontent";
+// @import "./layout/navigation";
+// @import "./layout/footer";
+
+// import from utils folder
+@import "./utils/spacingHelpers.scss";
+
+// import pages folder
+@import "./pages/home";
+
+@import "../../node_modules/bootstrap/scss/bootstrap";

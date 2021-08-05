@@ -1,0 +1,61 @@
+.foot{
+
+    background-color: #dadada !important;
+    color: black;
+    padding: 7rem 0rem 0.4rem 1rem;
+    text-align: center;
+    margin-top: 15rem;
+}
+
+.colored{
+    
+    font-weight: bold;
+    padding-top: 1rem;
+ 
+}
+.round-icon{
+    border: solid 2px;
+    border-radius: 2rem;
+    padding: 1rem 1rem 1rem 1rem;
+    margin-top: 1rem;
+}
+
+.foot-but {
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    border: none;
+    background: #00AFEF;
+    color: white;
+    border-radius: 2rem;
+    transition: ease-in 300ms;
+    /* box-shadow: white -0.5rem 0.5rem 0rem 0rem; */
+}
+.foot-but:hover {
+    background-color: white;
+    color: #00afef;
+    border: solid 1px;
+    border-color: #00afef;
+}
+@media screen and (max-width: 960px) {
+    .foot {
+        padding: 5rem 0rem 5rem 0rem;
+        text-align: center;
+    }
+  }
+
+  .copy{
+
+    text-align: center;
+    padding-top: 0rem;
+    margin-top: 15rem;
+  }
+  .send_but{
+    border: none;
+    padding: 0.4rem;
+    background: red;
+    color: white;
+  }
+  .send_input{
+    margin: 3rem 0rem;
+    border: none;
+    padding: 0.4rem;
+}

@@ -1,0 +1,48 @@
+.btn-purple {
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 0.8rem 2rem;
+  border: none;
+  color: $primary-blue;
+  border-radius: 25px;
+  outline: none;
+  background-color: $primary-purple;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.btn-green {
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 0.8rem 2rem;
+  border: none;
+  color: $primary-purple;
+  border-radius: 25px;
+  outline: none;
+  background-color: $primary-blue;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.fit {
+  width: fit-content;
+}
+
+.btn-tran {
+  background-color: transparent;
+  border: none;
+  padding: 0.5rem 2rem;
+  outline: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  font-weight: 400;
+  border: 1px solid $primary-ash;
+
+  &:focus {
+    outline: none;
+  }
+}

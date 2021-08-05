@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+@font-face {
+  font-family: Woozeee;
+  /* src: url(./asset/font/GoogleSans-Medium.woff2); */
+  src: url(../../asset/font/Poppins-Light.ttf),
+ url(../../asset/font/Poppins-Light.ttf),
+  url(../../asset/font/Poppins-SemiBold.ttf);
+}
+
+:root {
+  font-size: 16px;
+}
+
+html {
+  body {
+    box-sizing: border-box;
+    font-family: "Woozeee", sans-serif;
+  }
+
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+// root configuraion for screen
+@media screen and (max-width: 768px) {
+  :root {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  :root {
+    font-size: 12px;
+  }
+}
